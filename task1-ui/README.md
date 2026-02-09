@@ -52,4 +52,4 @@ user interaction design.
 ---
 
 ## Status
-Task 1 successfully completed.
+- ✅ Task 1 successfully completed.
