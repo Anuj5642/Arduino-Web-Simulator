@@ -51,4 +51,4 @@ screening task requirements.
 ---
 
 ## Status
-Task 2 successfully completed.
+- ✅ Task 2 successfully completed.
