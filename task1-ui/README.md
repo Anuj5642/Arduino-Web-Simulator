@@ -1,10 +1,42 @@
 # Task 1 – Web-Based Interface & Component Handling
 
-Implements Task 1 of the FOSSEE OSHW screening task.
+## Objective
+Design a **web-based interface** that allows users to visually create
+a simple Arduino experiment.
 
-## Features
-- Component palette (Arduino Uno, LED, Push Button)
-- Drag-and-drop canvas
-- Wokwi-style UI
-- Code view toggle
-- Start / Stop buttons
+---
+
+## Features Implemented
+
+- Component palette containing:
+  - Arduino Uno
+  - LED
+  - Push Button
+- Drag-and-drop placement onto a central canvas
+- Wokwi-style UI layout (sidebar, canvas, toolbar)
+- Toolbar toggle between **Component View** and **Code View**
+- Auto-generated Arduino code skeleton
+- Start and Stop buttons on the canvas
+
+---
+
+## Scope
+
+- UI and interaction only
+- No pin configuration
+- No wiring logic
+- No simulation behavior
+
+---
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## Status
+
+✅ Task 1 completed
