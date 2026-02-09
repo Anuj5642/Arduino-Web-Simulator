@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arduino Web Simulator – Task 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Toolbar -->
+<div class="topbar">
+  <button onclick="startSimulation()">▶ Run</button>
+  <button onclick="stopSimulation()">■ Stop</button>
+  <button onclick="toggleCode()">Code</button>
+</div>
+
+<div class="workspace">
+
+  <!-- Left: Parts -->
+  <div class="sidebar">
+    <h4>Parts</h4>
+    <div class="part" draggable="true" data-part="Arduino">Arduino Uno</div>
+    <div class="part" draggable="true" data-part="LED">LED</div>
+    <div class="part" draggable="true" data-part="Button">Push Button</div>
+  </div>
+
+  <!-- Center: Canvas -->
+  <div class="canvas"
+       ondragover="allowDrop(event)"
+       ondrop="dropPart(event)">
+
+    <svg id="wires"></svg>
+
+  </div>
+
+  <!-- Right: Controls -->
+  <div class="right-panel">
+
+    <h3>Pin Configuration</h3>
+
+    <label>LED Pin</label>
+    <select id="ledPin" onchange="updatePins()"></select>
+
+    <label>Button Pin</label>
+    <select id="buttonPin" onchange="updatePins()"></select>
+
+    <h3>Auto Wiring</h3>
+    <div id="wiringInfo"></div>
+
+    <h3>Arduino Code</h3>
+    <pre id="codePanel"></pre>
+
+  </div>
+
+</div>
+
+<script src="wiring.js"></script>
+<script src="codegen.js"></script>
+<script src="simulator.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
