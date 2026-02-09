@@ -23,21 +23,13 @@ web-based Arduino simulator developed for the
 
 ## 🌐 Live Website (GitHub Pages)
 
-👉 **Project Homepage:**  
+👉 **Project Homepage:**    
+https://anuj5642.github.io/Arduino-Web-Simulator/
 
-- Homepage:  
-  https://anuj5642.github.io/Arduino-Web-Simulator/
-
-- Task 1:  
-  https://anuj5642.github.io/Arduino-Web-Simulator/task1-ui/
-
-- Task 2:  
-  https://anuj5642.github.io/Arduino-Web-Simulator/task2-auto-wiring/
-
-- Task 3:  
-  https://anuj5642.github.io/Arduino-Web-Simulator/task3-simulation/
-
-   
+The homepage provides navigation links to:
+- Task 1 – Web-Based Interface
+- Task 2 – Auto-Wiring & Pin Configuration
+- Task 3 – Code Generation & Simulation
 
 ## Status
 
