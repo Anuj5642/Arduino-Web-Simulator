@@ -1,6 +1,6 @@
-# Arduino Web Simulator
+# **Arduino Web Simulator**
 
-## Abstract
+## **Abstract**
 This project presents a web-based Arduino simulation environment developed
 as part of the **FOSSEE OSHW Semester Internship Screening Task**.
 The system enables users to visually construct a simple Arduino experiment,
@@ -12,8 +12,7 @@ and is inspired by modern online electronics simulators.
 
 ---
 
-## Acknowledgements
-
+## **Acknowledgements**
 The author acknowledges the **FOSSEE (Free and Open Source Software for Education)**
 initiative under the **Indian Institute of Technology Bombay** for providing
 the opportunity and problem statement through the OSHW Semester Internship
@@ -32,7 +31,7 @@ carried out independently by the author for academic and evaluation purposes.
 
 ---
 
-## Project Website
+## **Project Website**
 The live web interface is available at:
 
 https://anuj5642.github.io/Arduino-Web-Simulator/
@@ -42,24 +41,18 @@ to individual task implementations.
 
 ---
 
-## System Architecture
-The project is structured into three independent tasks to clearly
-demonstrate incremental functionality.
+## **System Overview**
+The project is implemented in a task-wise manner to demonstrate incremental
+functionality. Each task builds upon the previous one while remaining
+logically independent.
 
-```mermaid
-flowchart TD
-    U[User] --> B[Web Browser]
-    B --> UI[User Interface Layer]
-    UI --> C[Component Handling]
-    C --> W[Auto-Wiring Logic]
-    W --> G[Code Generation]
-    G --> S[Logic-Level Simulation]
-    S --> UI
-```md
+- **Task 1** focuses on web-based user interface design and component handling.
+- **Task 2** introduces automatic wiring with visible Arduino digital pins.
+- **Task 3** adds automatic code generation and logic-level simulation.
 
 ---
 
-## Implementation Technologies
+## **Implementation Technologies**
 - HTML
 - CSS
 - JavaScript
@@ -68,7 +61,7 @@ No backend services, frameworks, or build tools are used.
 
 ---
 
-## Execution Instructions
+## **Execution Instructions**
 1. Open the project website using the link provided above, **or**
 2. Download the repository and open the required task folder
 3. Launch `index.html` using a modern web browser (Chrome recommended)
@@ -77,14 +70,14 @@ No additional installation or dependencies are required.
 
 ---
 
-## Project Status
-- Task 1: Completed
-- Task 2: Completed
-- Task 3: Completed
+## **Project Status**
+- ✔ Task 1: Web-Based Interface and Component Handling
+- ✔ Task 2: Automatic Wiring and Pin Configuration
+- ✔ Task 3: Code Generation and Logic-Level Simulation
 
 ---
 
-## Limitations
+## **Limitations**
 - The simulator performs **logic-level simulation only**
 - Electrical, timing, and microcontroller instruction-level behavior
   are not modeled
