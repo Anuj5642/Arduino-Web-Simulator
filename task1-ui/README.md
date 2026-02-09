@@ -1,36 +1,50 @@
-# Task 1 – Web-Based Interface & Component Handling
+# Task 1 – Web-Based Interface and Component Handling
 
 ## Objective
-Design a **web-based interface** that allows users to visually create
-a simple Arduino experiment.
+The objective of Task 1 is to design a web-based user interface that allows
+users to visually create a basic Arduino experiment.
 
 ---
 
-## Features Implemented
+## Methodology
+A drag-and-drop based graphical interface is implemented using standard
+web technologies. A component palette provides commonly used Arduino
+components, which can be placed onto a central canvas to form an experiment
+layout.
 
+---
+
+## Implemented Features
 - Component palette containing:
   - Arduino Uno
-  - LED
+  - Light Emitting Diode (LED)
   - Push Button
-- Drag-and-drop placement onto a central canvas
-- Wokwi-style UI layout (sidebar, canvas, toolbar)
-- Toolbar toggle between **Component View** and **Code View**
-- Auto-generated Arduino code skeleton
-- Start and Stop buttons on the canvas
+- Drag-and-drop interaction for component placement
+- Central working canvas for circuit construction
+- Toolbar with component view and code view toggle
+- Automatically generated Arduino code skeleton
+- Start and Stop control buttons
 
 ---
 
 ## Scope
-
-- UI and interaction only
-- No pin configuration
+- User interface design only
+- No pin mapping
 - No wiring logic
-- No simulation behavior
+- No behavioral simulation
 
 ---
 
-## Tech Stack
+## Acknowledgements
 
+This task is implemented based on the requirements provided in the
+FOSSEE OSHW Internship Screening Task and is conceptually inspired by
+modern web-based electronics simulators such as Wokwi for UI layout and
+user interaction design.
+
+
+---
+## Technologies Used
 - HTML
 - CSS
 - JavaScript
@@ -38,5 +52,4 @@ a simple Arduino experiment.
 ---
 
 ## Status
-
-✅ Task 1 completed
+Task 1 successfully completed.
