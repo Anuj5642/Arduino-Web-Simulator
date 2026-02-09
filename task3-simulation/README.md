@@ -49,4 +49,4 @@ behavior as documented in the official Arduino reference materials.
 ---
 
 ## Status
-Task 3 successfully completed.
+- ✅ Task 3 successfully completed.
