@@ -21,6 +21,16 @@ web-based Arduino simulator developed for the
 2. Open `index.html` in a modern browser (Chrome recommended)
 3. No installation or dependencies required
 
+## 🌐 Live Website (GitHub Pages)
+
+👉 **Project Homepage:**  
+https://anuj5642.github.io/Arduino-Web-Simulator/
+
+From the homepage:
+- Click **Task 1** to open the Task-1 interface
+- Click **Task 2** to open the Task-2 auto-wiring simulator
+   
+
 ## Status
 
 - ✅ Task 1 completed
