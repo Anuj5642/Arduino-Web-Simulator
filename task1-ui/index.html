@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arduino Web Simulator – Task 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top Toolbar -->
+<div class="topbar">
+  <button class="run">▶ Run</button>
+  <button class="stop">■ Stop</button>
+  <button onclick="toggleCode()">Code</button>
+</div>
+
+<div class="workspace">
+
+  <!-- Left Components Panel -->
+  <div class="sidebar">
+    <h4>Parts</h4>
+
+    <div class="part" draggable="true" data-part="Arduino">
+      Arduino Uno
+    </div>
+
+    <div class="part" draggable="true" data-part="LED">
+      LED
+    </div>
+
+    <div class="part" draggable="true" data-part="Button">
+      Push Button
+    </div>
+  </div>
+
+  <!-- Center Canvas -->
+  <div class="canvas"
+       ondragover="allowDrop(event)"
+       ondrop="dropPart(event)">
+    <span class="hint">Drag components here</span>
+  </div>
+
+  <!-- Right Code Panel -->
+  <div class="code-panel" id="codePanel">
+<pre>
+// Auto-generated Arduino code (Task 1)
+void setup() {
+  // pinMode will be added in Task 2
+}
+
+void loop() {
+  // logic will be added in Task 3
+}
+</pre>
+
+  </div>
+
+</div>
+
+<script src="ui.js"></script>
+</body>
+</html>
